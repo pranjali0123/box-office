@@ -15,9 +15,6 @@ const Navs = () => {
             <Link to={item.to}>{item.text}</Link>
           </li>
         ))}
-        <li>
-          <Link to="/starred">GO to starred page</Link>
-        </li>
       </ul>
     </div>
   );
